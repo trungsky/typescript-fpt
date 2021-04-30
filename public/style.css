@@ -1,0 +1,37 @@
+body {
+  background-image: url(https://i.pinimg.com/originals/e7/84/36/e784368aa396fea4e431d75b56be40d7.jpg);
+}
+
+.poke {
+  background-color: rgb(133, 184, 159);
+  border: solid black 1px;
+  margin: 5px;
+  transition: all 1s;
+}
+
+.poke:hover {
+  transform: skewX(-10deg);
+  transition: 1s;
+  background-color: cadetblue;
+}
+
+.pokeFocus {
+  transform: scale3d(1.1, 1.1, 1.1);
+  background-color: red;
+}
+
+.point {
+  height: 50px;
+  background-color: rgb(133, 184, 159);
+  border: solid rgb(252, 184, 184) 1px;
+  text-align: center;
+  padding-top: 10px;
+}
+
+#replayBtn {
+  height: 50px;
+  background-color: rgb(133, 184, 159);
+  border: solid rgb(252, 184, 184) 1px;
+  text-align: center;
+  padding-top: 10px;
+}
